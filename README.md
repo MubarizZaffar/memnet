@@ -1,10 +1,10 @@
 # Memnet
 
-This is a quick implementation and archiving of "Understanding and Predicting Image Memorability at a Large Scale, Khosla et al., ICCV 2015." It is a model useful for predicting the memorability score of an image, which could be used for selecting which images to store in a localization database for example. We recently considered it to compute usefulness of an image to store in a reference database for feature-matching-based localization with downward-looking camera of a drone. Images that primarily have a grass field get low memorability score, but images with more fetaures on ground get higher memorability.
+This is a quick implementation and archiving of "Understanding and Predicting Image Memorability at a Large Scale, Khosla et al., ICCV 2015." It is a model useful for predicting the memorability score of an image, which could be used for selecting which images to store in a localization database, for example. We recently considered it to compute the usefulness of an image to store in a reference database for feature-matching-based localization with a downward-looking camera of a drone. Images that primarily have a grass field get a low memorability score, but images with more features on the ground get a higher memorability score.
 
 See example usage for this application in "Memorable Maps: A Framework for re-defining Places in Visual Place Recognition, Zaffar et al., T-ITS, 2022."
 
-While the inference code (feel free to use ofc) is written by the author; all credits and rights for the development of Memnet are with Khosla et al. Please cite accordingly. Since their original webpage [http://memorability.csail.mit.edu/] is not accessible anymore, I am archiving the model here for any potential future user.
+While the inference code (feel free to use ofc) is written by the author, all credits and rights for the development of Memnet are with Khosla et al. Please cite accordingly. Since their original webpage [http://memorability.csail.mit.edu/] is no longer accessible, I am archiving the model here for any future users.
 
        
     python3 -m venv memnet_env
