@@ -1,6 +1,6 @@
 # Memnet
 
-This is a quick implementation and archiving of "Understanding and Predicting Image Memorability at a Large Scale, Khosla et al., ICCV 2015." It is a model useful for predicting the memorability score of an image, which could be used for selecting which images to store in a localization database for example.
+This is a quick implementation and archiving of "Understanding and Predicting Image Memorability at a Large Scale, Khosla et al., ICCV 2015." It is a model useful for predicting the memorability score of an image, which could be used for selecting which images to store in a localization database for example. We recently considered it to compute usefulness of an image to store in a reference database for feature-matching-based localization with downward-looking camera of a drone. Images that primarily have a grass field get low memorability score, but images with more fetaures on ground get higher memorability.
 
 See example usage for this application in "Memorable Maps: A Framework for re-defining Places in Visual Place Recognition, Zaffar et al., T-ITS, 2022."
 
@@ -15,7 +15,8 @@ While the inference code (feel free to use ofc) is written by the author; all cr
     
     python3 memnet.py 
 
-Citatations:
+Citations:
+
       @inproceedings{khosla2015understanding,
       title={Understanding and predicting image memorability at a large scale},
       author={Khosla, Aditya and Raju, Akhil S and Torralba, Antonio and Oliva, Aude},
